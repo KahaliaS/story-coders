@@ -1,1 +1,1 @@
-I need help setting up git. It says that everything is up to date but that is not true because git hub is not updatedHow do I fix this problem and actually connect git and project?
+Notes for things I need to get done. 
