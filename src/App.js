@@ -5,7 +5,8 @@ import "./mainAppStyle.css";
 export default function App() {
   return (
     <div>
-      < Nav />
+    
+      <Nav />
     </div>
   );
 }
