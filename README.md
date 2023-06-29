@@ -15,5 +15,10 @@
 - Set up my backend aka sql database (I do not think I need to set up a mongo db)
 - React route handling?
 - Properly design my site
-- Add react routing to nav items
-- Make nav sticky and transparent
+
+  #### Nav:
+
+  - Add react routing to nav items
+  - Make nav sticky and transparent
+  - Highlight or add border when hover over nav item
+  - Change nav item size
