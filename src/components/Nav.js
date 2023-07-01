@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logoImg from "./imgs/logo/11.png";
 import logoText from "./imgs/logo/10.png";
 
 export default function Nav() {
+  // const { pathname } = useLocation();
   return (
     <nav>
       <div>
@@ -12,7 +14,9 @@ export default function Nav() {
 
       {/* <h2 className="nav--logo_text"> &lt; <span>Story Coders</span> /&gt;  </h2> */}
       <ul className="nav--items">
-        <li>Home</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
         <li>Login</li>
         <li>Get Started</li>
       </ul>

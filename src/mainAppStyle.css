@@ -2,6 +2,7 @@
 :root {
   --main-orange-color: #f7985a;
   --main-blue-color: #28385b;
+  --main-black-color: #000;
 }
 
 * {
@@ -11,6 +12,11 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin:0 auto;
 }
 nav {
   display: flex;
@@ -48,5 +54,21 @@ nav {
 .nav--items > li {
   display: flex;
   justify-content: flex-end;
-  padding-right: 15px;
+  padding: 8px;
+  transition: border 0.5s;
 }
+
+.nav--items li a:link {
+  text-decoration: none;
+}
+
+.nav--items li a:visited,
+.nav--items li a:active {
+  color: var(--main-black-color);
+}
+
+.nav--items li:hover{
+  border: .5px solid white;
+  border-radius: 5px;
+}
+
