@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 
+//components
+import StudentDetails from "../components/StudentDetails";
+import StudentForm from "../components/StudentForm";
+
 export default function Home() {
   const [students, setStudents] = useState(null);
 
@@ -20,11 +24,10 @@ export default function Home() {
       <div className="students">
         {students &&
           students.map((student) => (
-            <p key={student._id}>
-              {student.firstName} {student.lastName}
-            </p>
+            <StudentDetails key={student._id} student={student} /> 
           ))}
       </div>
+      <StudentForm />
     </div>
   );
 }
