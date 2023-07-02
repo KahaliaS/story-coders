@@ -17,8 +17,9 @@
 
 ### Things that I still have to do:
 
-- Add Authorization
-- Add stories
+- Add Authorization for login
+- Add stories - at least 1, goldilocks - if else or loops
+- database for stories?
 - Add games / gamification
 - student pics or avatar?
 - action when hover over logo and button
@@ -28,6 +29,7 @@
 - add additional crud functionality
 - Add database for student and admin info
 - Connect with an outside API?
+- New Login Page
 
   #### Nav:
 
