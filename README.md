@@ -10,11 +10,15 @@
 - Set up Nav component
 - Set up routes and basic CRUD functionality
 - Set up my backend aka mongo db
+- React route handling?
+- Properly design my site
 
 ### Things that I still have to do:
 
-- React route handling?
-- Properly design my site
+- Add Authorization
+- Add stories 
+- Add games / gamification
+- student pics or avatar?
 
   #### Nav:
 
