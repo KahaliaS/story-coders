@@ -17,7 +17,7 @@ export default function Nav() {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li>Login</li>
+        <li><Link to="/login">Login</Link></li>
         <li>Get Started</li>
       </ul>
     </nav>

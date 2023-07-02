@@ -20,8 +20,10 @@ export default function Home() {
   }, []);
 
   return (
+    
     <div className="home">
       <div className="students">
+        <h3>Current Students</h3>
         {students &&
           students.map((student) => (
             <StudentDetails key={student._id} student={student} /> 

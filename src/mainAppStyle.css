@@ -78,6 +78,17 @@ nav {
   border-radius: 5px;
 }
 
+/* Header */
+.bg {
+  /*sizing header element*/
+  height: 400px;
+  width: 100%;
+  /*adding and adjusting our background img*/
+  background-image: url("https://images.pexels.com/photos/4545951/pexels-photo-4545951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position-y: 25%;
+}
+
 /* Home Styles */
 .home {
   display: grid;
